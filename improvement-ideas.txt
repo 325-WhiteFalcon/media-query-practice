@@ -1,0 +1,29 @@
+Items that could be improved with media queries!
+
+- squashed nav links at < 680px
+  - fix: nav block vs inline?
+  - li display: block
+  - li width: 100%; text-align: center
+
+- font too small on phones
+
+- sign up sentence in footer not good at narrow widths
+  - form is display: inline right now, could go to display: block
+
+- form in footer not good at narrow widths
+  - but we like having button & input side by side as much as possible
+
+- text (maybe) too wide after 1100px width
+  - maybe limit how wide the .container can get
+
+- image too small on narrower widths
+
+- line height could be taller, easier to read
+
+- padding/margin on .container & body reduced at narrower widths
+
+- keep image centered at wider widths - figcaption goes rogue!
+
+- headline loses any padding < 418px
+
+- headline font too large at narrower widths

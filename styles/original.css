@@ -41,6 +41,10 @@ header {
   width: 100%;
 }
 
+@media (max-width: 550px) {
+  h1 { font-size: 1.5rem; }
+}
+
 nav {
   width: 100%;
 }
@@ -62,6 +66,18 @@ nav li {
   font-weight: lighter;
 }
 
+@media (max-width: 680px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: .1em solid white;
+  }
+}
+
 nav li.active {
   background-color: rgba(102, 196, 58, 0.4);
 }
@@ -78,6 +94,7 @@ article h2 {
 article figure {
   width: 66%;
   margin: auto;
+  max-width: 638px;
 }
 
 article figcaption {
@@ -105,18 +122,3 @@ footer form {
 }
 
 
-/*body { color: red; }
-
-@media (min-width: 410px) {
-  body { color: purple; }
-}
-
-@media (min-width: 700px) {
-  body { color: blue; }
-}
-
-@media (min-width: 1100px) {
-  body { color: black; }
-}
-
-*/
